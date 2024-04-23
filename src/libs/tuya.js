@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const defaults = {
-  region: 'eu'
+  region: 'th'
 }
 
 function ensureSuccess (response) {
