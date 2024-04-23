@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const defaults = {
-  region: 'th' // thai
+  region: 'us' // thai
 }
 
 function ensureSuccess (response) {
@@ -47,7 +47,7 @@ function HomeAssistantClient (session) {
     const authResponse = await client.post('/auth.do', new URLSearchParams({
       userName,
       password,
-      countryCode: '00',
+      countryCode: '66',
       bizType: 'smart_life',
       from: 'tuya'
     }))
